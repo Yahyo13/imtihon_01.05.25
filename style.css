@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+header a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(131, 125, 136, 1);
+}
+
+header button{
+    width: 120px;
+    height: 37px;
+    background: none;
+    border: 1px solid black;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    background-color: rgba(45, 38, 65, 1);
+    justify-content: space-around;
+    height: 600px;
+}
+
+.box1 h1{
+    font-size: 72px;
+    font-family: DM Serif Display;
+    color: #fff;
+    line-height: 62px;
+}
+
+.box1 p{
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.box1 button{
+    width: 120px;
+    height: 37px;
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.d1 h2{
+    font-size: 31px;
+    font-family: DM Serif Display;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.d1_div{
+    width: 350px;
+}
+
+.d1 p{
+    font-size: 16px;
+    color: rgba(131, 125, 136, 1);
+}
+
+.box2{
+    margin-top: 130px;
+    padding-bottom: 100px;
+}
+
+.d1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.d2 h1{
+    color: #fff;
+    font-size: 56px;
+    font-family: DM Serif Display;
+}
+
+.d2 div{
+    background-image: url(./Group\ 6\ Copy.png);
+    width: 1000px;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d2 button{
+    width: 120px;
+    height: 37px;
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.d2{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.d3 div{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.d3 a{
+    text-decoration: none;
+    color: rgba(45, 38, 65, 1);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.d3 p{
+    color: rgba(131, 125, 136, 1);
+    font-size: 13px;
+}
+
+
+
+.yah{
+    display: none;
+}
+
+.d3div{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-top: 20px;
+}
+
+footer{
+    display: flex;
+    background-image: url(./Group\ 18\ Copy.png);
+    justify-content: center;
+    align-items: center;
+    height: 390px;
+
+}
+
+
+ @media(max-width:350px){
+    .img1{
+        display: block;
+        padding-right: 100px;
+    }
+    header div{
+        display: none;
+    }
+
+    .box1 div{
+        text-align: center;
+    }
+    .yah2{
+        width: 200px;    
+        position: static;
+    }
+    .yah2 img{
+        width: 180px;
+        position:static ;
+    }
+    .box1{
+        flex-direction: column;
+    }
+    .box1 hr{
+        display: none;
+    }
+    .box1 h1{
+        font-size: 48px;
+    }
+
+    .d1{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .d1 div{
+        width: 300px;
+    }
+    
+    footer{
+        width: 300px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .d3div{
+        padding-right: 320px;
+        width: 300px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+
+    .d2 div{
+        width: 300px;
+        height: 300px;
+        margin-right: 280px;
+        flex-direction: column;
+    }
+} 
+
+
+@media(max-width:750px){
+    
+    
+    header div{
+        display: none;
+    }
+    .box1 h1{
+        font-size: 48px;
+    }
+
+    .box1 p{
+        font-size: 11px;
+    }
+
+    .img1{
+        display: block;
+    }
+
+    .yah{
+        display: block;
+        padding-left: 400px;
+    }
+    
+
+    .box1{
+      
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .yah2{
+        width: 750px;
+        position: relative;
+        bottom: 100px;
+        left: 120px;
+    }
+
+    .yah2 img{
+        width: 200px;
+    }
+
+    .d1{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .d1 div{
+        margin: 0 auto;
+    }
+    
+    .box2 h1{
+        text-align: center;
+    }
+    hr{
+        display: none;
+    }
+
+    .d2{
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .d2 h1{
+        font-size: 48px;
+    }
+    
+    footer{
+        width: 700px;
+        flex-direction: column;
+    }
+
+    .d3div{
+        width: 700px;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+
+}
